@@ -55,7 +55,7 @@ O **Alura Tracker** é uma aplicação de controle de tarefas com cronômetro in
 git clone https://github.com/emiliosarges/Alura-Vue3-explorando-o-framework.git
 
 # Acesse o diretório do projeto
-cd Alura-Vue3-explorando-o-framework
+cd alura-tracker
 
 # Instale as dependências
 npm install
@@ -66,7 +66,7 @@ npm run serve
 🖥️ Acesse em: http://localhost:8080
 
 ---
-## 📁 Estrutura do Projeto
+## 📁 **Estrutura do Projeto**
 
 alura-tracker/
 ├── public/              # Arquivos públicos
@@ -80,14 +80,18 @@ alura-tracker/
 └── README.md
 
 ---
-## 🤝 Contribuindo
+**## 🤝 Funcionalidades**
 
 Contribuições são muito bem-vindas!
 Se quiser reportar bugs, sugerir melhorias, fique à vontade 🙌
 
-## 📄 Licença
+---
+
+**## 📄 Licença**
 Este projeto está sob a licença MIT.
 Consulte o arquivo LICENSE para mais informações.
+
+---
 
 
 
