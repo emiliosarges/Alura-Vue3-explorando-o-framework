@@ -63,36 +63,6 @@ npm install
 # Inicie a aplicação
 npm run serve
 
-🖥️ Acesse em: http://localhost:8080
-
----
-## 📁 **Estrutura do Projeto**
-
-alura-tracker/
-├── public/              # Arquivos públicos
-├── src/                 # Código-fonte da aplicação
-│   ├── assets/          # Imagens e estilos
-│   ├── components/      # Componentes reutilizáveis
-│   ├── views/           # Páginas principais
-│   ├── App.vue          # Componente raiz
-│   └── main.ts          # Entrada da aplicação
-├── package.json         # Dependências e scripts
-└── README.md
-
----
-**## 🤝 Funcionalidades**
-
-Contribuições são muito bem-vindas!
-Se quiser reportar bugs, sugerir melhorias, fique à vontade 🙌
-
----
-
-**## 📄 Licença**
-Este projeto está sob a licença MIT.
-Consulte o arquivo LICENSE para mais informações.
-
----
-
 
 
 
