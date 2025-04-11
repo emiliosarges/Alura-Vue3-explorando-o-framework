@@ -1,59 +1,96 @@
-# Alura Tracker
+# 📘 Alura Tracker
 
-Este é um projeto desenvolvido durante o curso de Vue.js com TypeScript na Alura. O objetivo do projeto é criar uma aplicação de acompanhamento de tarefas diárias, chamada Alura Tracker.
+<p align="center">
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma">
+  <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License">
+</p>
 
-## Funcionalidades
+> Projeto desenvolvido durante o curso de **Vue.js com TypeScript** da [Alura](https://www.alura.com.br/), com foco em produtividade e organização diária.
 
-- **Iniciar e parar tarefas**: Inicie uma tarefa e o cronômetro começará a contar. Quando finalizar, a tarefa será adicionada a uma lista.
-- **Lista de tarefas**: Acompanhe todas as tarefas realizadas, cada uma com o tempo gasto.
-- **Vue.js 3 e TypeScript**: Utilização das versões mais recentes dessas tecnologias para um desenvolvimento mais eficiente e tipado.
+## 📌 Descrição
 
-## Promessas do Curso
+O **Alura Tracker** é uma aplicação de controle de tarefas com cronômetro integrado. Desenvolvida utilizando **Vue 3**, **TypeScript** e **Bulma**, ela permite registrar o tempo gasto em cada atividade de forma simples e intuitiva.
 
-Ao concluir este curso, eu serei capaz de:
+🔗 Repositório do projeto: [emiliosarges/Alura-Vue3-explorando-o-framework](https://github.com/emiliosarges/Alura-Vue3-explorando-o-framework)
 
-- Reconhecer as diferenças entre as versões 2 e 3 do Vue.
-- Explicar as vantagens de utilizar Vue.js com TypeScript.
-- Implementar a comunicação entre componentes filho -> pai.
-- Integrar as variáveis de um componente com o seu template, utilizando two-way data binding.
-- Delimitar as responsabilidades de um componente.
-- Elaborar uma aplicação utilizando Vue e TypeScript.
+---
 
-## Tecnologias Utilizadas
+## ✨ Funcionalidades
 
-- **Vue.js 3**: Framework progressivo para construção de interfaces de usuário.
-- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- ✅ Iniciar e parar tarefas com cronômetro  
+- ✅ Visualizar a lista de tarefas finalizadas e seus tempos  
+- ✅ Interface moderna e responsiva com Bulma  
+- ✅ Componentização e organização com Vue 3  
+- ✅ Tipagem estática com TypeScript  
 
-## Como Executar o Projeto
+---
 
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/alura-tracker.git
-    ```
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd alura-tracker
-    ```
-3. Instale as dependências:
-    ```bash
-    npm install
-    ```
-4. Execute a aplicação:
-    ```bash
-    npm run serve
-    ```
+## 🎯 O Que Eu Aprendi
 
-## Estrutura do Projeto
+- As diferenças principais entre Vue 2 e Vue 3  
+- Benefícios de utilizar TypeScript com Vue  
+- Comunicação entre componentes (filho → pai)  
+- Uso de *two-way data binding*  
+- Divisão de responsabilidades por componente  
+- Construção de uma aplicação real com Vue + TypeScript  
 
-- `src/`: Contém o código-fonte da aplicação.
-- `public/`: Arquivos públicos da aplicação.
-- `package.json`: Gerenciamento de dependências e scripts do projeto.
+---
 
-## Contribuição
+## 🧪 Tecnologias Utilizadas
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+- ![Vue.js](https://img.icons8.com/color/24/vue-js.png) [Vue.js 3](https://vuejs.org/)
+- ![TypeScript](https://img.icons8.com/color/24/typescript.png) [TypeScript](https://www.typescriptlang.org/)
+- ![Bulma](https://img.icons8.com/ios-filled/24/00d1b2/b.png) [Bulma CSS](https://bulma.io/)
+- ![npm](https://img.icons8.com/color/24/npm.png) [npm](https://www.npmjs.com/)
 
-## Licença
+---
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+## ▶️ Como Rodar o Projeto
+
+```bash
+# Clone o repositório
+git clone https://github.com/emiliosarges/Alura-Vue3-explorando-o-framework.git
+
+# Acesse o diretório do projeto
+cd Alura-Vue3-explorando-o-framework
+
+# Instale as dependências
+npm install
+
+# Inicie a aplicação
+npm run serve
+
+🖥️ Acesse em: http://localhost:8080
+
+---
+## 📁 Estrutura do Projeto
+
+alura-tracker/
+├── public/              # Arquivos públicos
+├── src/                 # Código-fonte da aplicação
+│   ├── assets/          # Imagens e estilos
+│   ├── components/      # Componentes reutilizáveis
+│   ├── views/           # Páginas principais
+│   ├── App.vue          # Componente raiz
+│   └── main.ts          # Entrada da aplicação
+├── package.json         # Dependências e scripts
+└── README.md
+
+---
+## 🤝 Contribuindo
+
+Contribuições são muito bem-vindas!
+Se quiser reportar bugs, sugerir melhorias, fique à vontade 🙌
+
+## 📄 Licença
+Este projeto está sob a licença MIT.
+Consulte o arquivo LICENSE para mais informações.
+
+
+
+
+
 
