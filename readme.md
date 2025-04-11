@@ -8,13 +8,15 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License">
 </p>
 
-> Projeto desenvolvido durante o curso de **Vue.js com TypeScript** da [Alura](https://www.alura.com.br/), com foco em produtividade e organização diária.
+> Projeto desenvolvido durante o curso de **Vue3: explorando o framework** da [Alura](https://www.alura.com.br/), com foco em produtividade e organização diária.
+
+---
 
 ## 📌 Descrição
 
 O **Alura Tracker** é uma aplicação de controle de tarefas com cronômetro integrado. Desenvolvida utilizando **Vue 3**, **TypeScript** e **Bulma**, ela permite registrar o tempo gasto em cada atividade de forma simples e intuitiva.
 
-🔗 Repositório do projeto: [emiliosarges/Alura-Vue3-explorando-o-framework](https://github.com/emiliosarges/Alura-Vue3-explorando-o-framework)
+🔗 Repositório: [github.com/emiliosarges/Alura-Vue3-explorando-o-framework](https://github.com/emiliosarges/Alura-Vue3-explorando-o-framework)
 
 ---
 
@@ -30,11 +32,11 @@ O **Alura Tracker** é uma aplicação de controle de tarefas com cronômetro in
 
 ## 🎯 O Que Eu Aprendi
 
-- As diferenças principais entre Vue 2 e Vue 3  
-- Benefícios de utilizar TypeScript com Vue  
+- As principais diferenças entre Vue 2 e Vue 3  
+- Vantagens de utilizar TypeScript com Vue  
 - Comunicação entre componentes (filho → pai)  
 - Uso de *two-way data binding*  
-- Divisão de responsabilidades por componente  
+- Delimitação clara das responsabilidades de cada componente  
 - Construção de uma aplicação real com Vue + TypeScript  
 
 ---
@@ -54,16 +56,50 @@ O **Alura Tracker** é uma aplicação de controle de tarefas com cronômetro in
 # Clone o repositório
 git clone https://github.com/emiliosarges/Alura-Vue3-explorando-o-framework.git
 
-# Acesse o diretório do projeto
-cd alura-tracker
+# Acesse o diretório
+cd Alura-Vue3-explorando-o-framework/alura-tracker
 
 # Instale as dependências
 npm install
 
-# Inicie a aplicação
+# Inicie o servidor de desenvolvimento
 npm run serve
+```
 
+🖥️ Acesse o app em: [http://localhost:8080](http://localhost:8080)
 
+---
+
+## 📁 Estrutura do Projeto
+
+```
+alura-tracker/
+├── public/              # Arquivos públicos da aplicação
+├── src/                 # Código-fonte principal
+│   ├── assets/          # Imagens e arquivos estáticos
+│   ├── components/      # Componentes reutilizáveis
+│   ├── views/           # Telas/visualizações principais
+│   ├── App.vue          # Componente raiz
+│   └── main.ts          # Arquivo principal de entrada
+├── package.json         # Dependências e scripts do projeto
+└── README.md            # Este arquivo
+```
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são muito bem-vindas!  
+Sinta-se à vontade para abrir *issues* com sugestões, relatar bugs ou enviar *pull requests* com melhorias. 🚀
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença **MIT**.  
+Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
+
+---
 
 
 
