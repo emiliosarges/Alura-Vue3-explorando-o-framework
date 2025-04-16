@@ -5,52 +5,22 @@
                 <input type="text" class="input" placeholder="Qual tarefa você deseja iniciar?" />
             </div>
             <div class="column">
-                <div class="is-flex is-align-items-center is-justify-content-space-between">
-                    <section>
-                        <strong>00:00:00</strong>
-                    </section>
-                    <button class="button" @click="iniciar">
-                        <span class="icon">
-                            <i class="fas fa-play"></i>
-                        </span>
-                        <span>play</span>
-                    </button>
-                    <button class="button" @click="finalizar">
-                        <span class="icon">
-                            <i class="fas fa-stop"></i>
-                        </span>
-                        <span>stop</span>
-                    </button>
-
-                </div>
-
+                <TemporizadorComponent />
             </div>
         </div>
     </div>
+
 </template>
 
 <script lang="ts">
 
 import { defineComponent } from 'vue';
+import TemporizadorComponent from './TemporizadorComponent.vue';
 
 export default defineComponent({
     name: 'FormularioComponent',
-    data () {
-        return {
-            tempoEmSegundos: 0
-        }
-    },
-    methods: {
-        iniciar () {
-            //iniciar a contagem
-            console.log('iniciando');
-            
-        },
-        finalizar () {
-            console.log('finalizando');
-            
-        }
+    components: {
+        TemporizadorComponent
     }
-})
-
+});
 </script>
