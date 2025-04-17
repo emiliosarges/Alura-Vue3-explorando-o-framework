@@ -18,6 +18,7 @@ import { defineComponent } from 'vue';
 import BarraLateral from './components/BarraLateral.vue';
 import FormularioComponent from './components/FormularioComponent.vue';
 import TarefaComponent from './components/TarefaComponent.vue';
+
 import ITarefa from './interfaces/ITarefa'
 
 export default defineComponent({
