@@ -5,7 +5,7 @@
                 <input type="text" class="input" placeholder="Qual tarefa você deseja iniciar?" />
             </div>
             <div class="column">
-                <TemporizadorComponent />
+                <TemporizadorComponent @aoTemporizadorfinalizado="finalizarTarefa"/>
             </div>
         </div>
     </div>
@@ -21,6 +21,12 @@ export default defineComponent({
     name: 'FormularioComponent',
     components: {
         TemporizadorComponent
+    },
+    methods: {
+        finalizarTarefa (tempoDecorrido: number) : void {
+            console.log('tempo da tarefa:', tempoDecorrido)
+            
+        }
     }
 });
 </script>
